@@ -6,6 +6,7 @@ import Principal from "./pages/Principal";
 import { useDispatch } from "react-redux";
 import Historia from "./pages/Historia";
 import Ordenar from "./pages/Ordenar";
+import logro from "./pages/Logro";
 
 function App() {
   const dispatch = useDispatch();
@@ -15,6 +16,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Historia}/>
         <Route path="/ordenar" component={Ordenar}/>
+        <Route path="/logro" component={logro}/>
         {/*<Route exact path="/" component={IniciarSesion}
         <Route path="/registrar" component={Registrar} />
   <Route  path="/principal" render={() => <Principal />} />*/}

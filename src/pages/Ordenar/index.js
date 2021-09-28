@@ -17,9 +17,9 @@ function Ordenar() {
         <img 
         className="absolute flex z-10 h-32 w-80 right-19 top-2"
         src="/assets/Group 64.png" alt="" />
-        <h1 className="absolute flex z-10 right-2 top-5 text-white text-justify font-body text-base w-1/2">
+        <h1 className="absolute flex z-10 left-40 top-5 text-white text-center font-body text-base w-1/2 h-auto">
         Antes de empezar a trabajar en tu futuro debes organizar tu presente.
-        </h1>
+        </h1>       
         <img
         className="absolute flex z-10 left-72 top-17 left-2 h-80 w-44"
         src="/assets/Group 81(3).png" alt=""/>
